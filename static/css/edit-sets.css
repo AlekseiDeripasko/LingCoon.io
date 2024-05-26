@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../bg_edit_sets.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.wrapper{
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 100%;
+	margin: auto;
+    justify-content: center;
+}
+
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+ /* 100% высоты окна браузера */
+}
+
+
+
+.card{
+    height: 450px !important;
+    width: 25rem !important;
+    margin-bottom: 20px;
+    place-self: center;
+}
+
+.card .btn{
+    margin-top: auto;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-image{
+    position: relative;
+    overflow: hidden;
+    height: 210px;
+
+}
+
+.card-title{
+    font-size: 30px !important;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 20px !important;
+    text-align: center;
+    height: 100px;
+}
+
+#add_new_set{
+    height: 100% !important;
+}
+
+.sets{
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width */
+    padding: 10px; /* Optional padding */
+    border: 1px solid #000; /* Optional border for visibility */
+}
+
+.choose{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.fixed-image {
+    position: absolute; /* Фиксированное позиционирование */
+    top: 20px; /* Отступ сверху */
+    left: 20px; /* Отступ слева */
+    /* При необходимости добавьте другие стили, например, размер изображения */
+    width: 100px; /* Ширина картинки */
+    height: auto; /* Автоматическая высота */
+    z-index: 2;
+}
+
+.buttons {
+            display: flex;
+            gap: 10px; /* Расстояние между кнопками */
+            width: 100%; /* Чтобы контейнер занимал всю ширину */
+        }
+.buttons button {
+    flex: 1;
+    padding: 10px; /* Внутренний отступ для кнопок */
+}

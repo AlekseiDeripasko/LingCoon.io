@@ -1,0 +1,75 @@
+#main-text{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+
+#main-second-text{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+
+}
+.btn-submit{
+    width: 100%;
+}
+.sign_in_form{
+        width: 60%;
+        background-color: rgba(40, 40, 40, 0.7);
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        border-radius: 10px; /* Закругление углов */
+        padding: 20px; /* Отступы от краев */
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); /* Тень */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#sign_up{
+    text-align: center;
+    font-size: 20px;
+}
+
+body{
+    background-color: black;
+}
+
+.main-text{
+    color: #698BB3;
+}
+
+.fixed-image {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: auto;
+}
